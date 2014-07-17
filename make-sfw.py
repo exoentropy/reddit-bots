@@ -1,6 +1,6 @@
 import sys, praw
 
-userAgent = """make-sfw.py (PRAW) // removes posts containing black listed words and phrases // https://github.com/scottenriquez/reddit-bots // /u/Exoentropy"""
+userAgent = """make-sfw.py (PRAW) // removes posts containing black listed words and phrases // https://github.com/Exoentropy/reddit-bots // /u/Exoentropy"""
 
 reddit = praw.Reddit(userAgent)
 reddit.login()
